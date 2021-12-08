@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="da">
+        <attr name="backgroundColor" format="color"/>
+        <attr name="btnLoginColor" format="color"/>
+        <attr name="btnRegisterColor" format="color"/>
+        <attr name="textColor" format="color"/>
+        <attr name="text" format="string"/>
+    </declare-styleable>
+</resources>

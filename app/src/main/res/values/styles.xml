@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Day Mode -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="textColor">@color/text_day</item>
+        <item name="backgroundColor">@color/backgroundColorDay</item>
+        <item name="text">โหมดกลางวัน</item>
+    </style>
+
+    <!-- Night Mode -->
+    <style name="DarkTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="textColor">@color/text_night</item>
+        <item name="backgroundColor">@color/backgroundColorNight</item>
+        <item name="text">โหมดกลางคืน</item>
+    </style>
+</resources>
